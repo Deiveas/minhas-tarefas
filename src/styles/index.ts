@@ -10,9 +10,15 @@ const EstiloGlobal = createGlobalStyle`
     list-style: none;
   }
 `
+const mobileBreakpoint = '768px'
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 224px auto;
+
+  @media (max-width: ${mobileBreakpoint}) {
+    display: block;
+  }
 `
 export const MainContainer = styled.main`
   padding: 0 40px;
@@ -30,6 +36,11 @@ export const Titulo = styled.h2`
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 16px;
   border-radius: 16px;
+  color: ${variaveis.corTexto};
+
+  @media (max-width: ${mobileBreakpoint}) {
+    font-size: 11px;
+  }
 `
 export const Campo = styled.input`
   padding: 8px;

@@ -4,5 +4,6 @@ export default {
   amarelo: '#f0c11a',
   amarelo2: '#e1a32a',
   azulEscuro: '#2f3640',
-  corTituloSuperior: '#6E6E6E'
+  corTituloSuperior: '#333',
+  corTexto: '#fff'
 }

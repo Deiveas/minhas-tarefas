@@ -4,6 +4,7 @@ import EstiloGlobal, { Container } from './styles'
 import store from './store'
 import Home from './pages/Home'
 import Cadastro from './pages/Cadastro'
+import Footer from './containers/Footer/Footer'
 
 const rotas = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ function App() {
       <Container>
         <RouterProvider router={rotas} />
       </Container>
+      <Footer />
     </Provider>
   )
 }

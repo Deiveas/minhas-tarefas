@@ -14,7 +14,7 @@ export const Form = styled.form`
 `
 
 export const Opcoes = styled.div`
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 
   p {
     margin-bottom: 8px;
@@ -22,6 +22,7 @@ export const Opcoes = styled.div`
 
   label {
     margin-right: 8px;
+    padding: 3px;
   }
 `
 export const Opcao = styled.div`

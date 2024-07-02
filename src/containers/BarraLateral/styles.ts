@@ -1,9 +1,15 @@
 import styled from 'styled-components'
 
+const mobileBreakpoint = '768px'
+
 export const Aside = styled.aside`
   padding: 16px;
   background-color: #eee;
   height: 100vh;
+
+  @media (max-width: ${mobileBreakpoint}) {
+    height: 50vh;
+  }
 `
 export const Filtros = styled.div`
   display: grid;
